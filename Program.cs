@@ -23,9 +23,9 @@ namespace HelloWorld
             Console.WriteLine("終了するには何かキーを押してください (Press any key to exit)...");
             Console.ReadKey();
 
-            //モジュールインジェクションセキュリティの非準拠
-            var listener = new System.Net.HttpListener();
-            listener.Prefixes.Add("http://*:8443/");
+            // //モジュールインジェクションセキュリティの非準拠
+            // var listener = new System.Net.HttpListener();
+            // listener.Prefixes.Add("http://*:8443/");
         }
     }
 }
